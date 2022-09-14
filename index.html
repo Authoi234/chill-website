@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chill Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://m.media-amazon.com/images/I/61e-GZZHZtL._AC_SX679_.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1d52929b9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand click-hover" data-aos="fade-right" href="#">Chill Website</a>
+        <button class="navbar-toggler" data-aos="fade-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" data-aos="fade-right">
+            <li class="nav-item">
+              <a class="nav-link click-hover active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link click-hover" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  click-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link click-hover">Blogs</a>
+            </li>
+          </ul>
+          <form data-aos="fade-left" class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn text-white btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <aside class="border-top float-start overflow bg-black width-aside">
+      <h3 class="pb-3 pt-3 text-white text-center align-items-center">List</h3>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="#" class="text-decoration-none white-hover" rel="noopener noreferrer">Home</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="link.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">Link</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="blog.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">Blogs</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="about.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">About us</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="https://constact.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">Contact us</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="More.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">More Websites</a></h5>
+      <h5 class="white-hover px-4 py-3 text-center align-items-center"><a href="" class="text-decoration-none white-hover disabled">Sign in</a></h5>
+      <h5 class="px-4 py-3 text-center align-items-center"><a href="Signup.html" class="text-decoration-none white-hover" target="_blank" rel="noopener noreferrer">Sign up</a></h5>
+      <div class="d-flex align-items-center img-div-width">
+        <img class="img-fluid" src="./images/CC_20220123_154443.png" alt="">
+        <li class="dropdown ps-4 pb-3">
+          <a class="text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-chevron-up"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">images</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Facebook</a></li>
+          </ul>
+        </li>
+      </div>
+    </aside>
+    <div class="p-2">
+      <h1 class="text-center">Latest Courses</h1>
+      <hr width="auto">
+      <div class="d-flex mb-3">
+        <div class="me-2 d-grid col-6">
+          <div class="col d-flex shadow rounded-3">
+            <div>
+              <img class="img-fluid" src="./images/course-1.png" alt="">
+            </div>
+            <div class="ps-1 align-items-center">
+              <h3>Fundamental Of UI/UX Design</h3>
+              <p class="mt-1">Some quick example text to build on the card title <br>
+                and make up the bulk of the card.</p>
+              <p class="text-info"><del>price: 25$</del></p>
+              <p class="text-info">Price: 20$</p>
+            </div>
+          </div>
+        </div>     
+        <div class="d-grid col-6">
+          <div class="col d-flex shadow rounded-3">
+            <div>
+              <img class="img-fluid" src="./images/course-2.png" alt="">
+            </div>
+            <div class="ps-1 align-items-center">
+              <h3>Javascript Basic to advanced</h3>
+              <p class="mt-1">Some quick example text to build on the card title <br>
+                and make up the bulk of the card.</p>
+              <p class="text-info"><del>price: 25$</del></p>
+              <p class="text-info">Price: 20$</p>
+            </div>
+          </div>
+        </div> 
+      </div>    
+      <div class="d-flex">
+        <div class="me-2 d-grid col-6">
+          <div class="col d-flex shadow rounded-3">
+            <div>
+              <img class="img-fluid" src="./images/course-3.png" alt="">
+            </div>
+            <div class="ps-1 align-items-center">
+              <h3>Fullstack Web Development</h3>
+              <p class="mt-1">Some quick example text to build on the card title <br>
+                and make up the bulk of the card.</p>
+              <p class="text-info"><del>price: 25$</del></p>
+              <p class="text-info">Price: 20$</p>
+            </div>
+          </div>
+        </div>     
+        <div class="d-grid col-6">
+          <div class="col d-flex shadow rounded-3">
+            <div>
+              <img class="img-fluid" src="./images/course-4.png" alt="">
+            </div>
+            <div class="ps-1 align-items-center">
+              <h3>Digital Marketing</h3>
+              <p class="mt-1">Some quick example text to build on the card title <br>
+                and make up the bulk of the card.</p>
+              <p class="text-info"><del>price: 25$</del></p>
+              <p class="text-info">Price: 20$</p>
+            </div>
+          </div>
+        </div> 
+      </div>    
+    </div>
+  </header>
+  <main>
+    <section>
+      <h1 class="text-ctr mt-3">Latest Videos</h1>
+      <hr width="full" class="mb-3">
+      <div class="d-flex text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XFZyqeTnVuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="me-5 ms-5"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/umsJC28hPmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="me-5"></iframe>
+      </div>
+    </section>
+    <section>
+      <div class="position-relative text-center">
+        <div class="mt-5">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#ffe47b;display:block;" width="1344" height="625" preserveAspectRatio="xMidYMid" viewBox="0 0 1366 625">
+            <g transform="translate(683,312.5) scale(1,1) translate(-683,-312.5)"><style type="text/css">
+              @keyframes ld-fall {
+                0%    { transform: translate(0,0px) rotate3d(1,1,1,0deg); }
+                16.6% { transform: translate(0,106.16666666666667px) rotate3d(1,1,1,180deg); }
+                33.3% { transform: translate(0,212.33333333333334px) rotate3d(1,1,1,360deg); }
+                50.0% { transform: translate(0,318.5px) rotate3d(1,1,1,540deg); }
+                66.6% { transform: translate(0,424.6666666666667px) rotate3d(1,1,1,720deg); }
+                83.3% { transform: translate(0,530.8333333333334px) rotate3d(1,1,1,900deg); }
+                100%  { transform: translate(0,637px) rotate3d(1,1,1,1080deg) ; }
+              }
+              .ld.ld-fall {
+                animation: ld-fall 4s linear infinite;
+              }
+              .ld.ld-fall2 {
+                animation: ld-fall 4s linear infinite;
+                animation-fill-mode: forwards;
+              }
+            </style>
+              <g transform="translate(0 285.3559534901765)"><g transform="translate(1356.8535764012888 0)">
+            <g class="ld ld-fall2" style="animation-delay:-0.8836137812908218s;animation-duration:4s">
+            <rect x="-4.865413099521408" y="-3.1203390664486634" width="9.730826199042816" height="6.240678132897327" style="transform:scale(2.8862879612566132)" fill="#4355db"></rect>
+            </g></g><g transform="translate(765.2278555660156 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.4273347398747749s;animation-duration:2s">
+            <rect x="-5.428187222378368" y="-3.118112429446769" width="10.856374444756735" height="6.236224858893538" style="transform:scale(2.0134669585152114)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(351.8168569571826 0)">
+            <g class="ld ld-fall2" style="animation-delay:-3.2066013545150938s;animation-duration:4s">
+            <rect x="-3.6838110743803805" y="-5.237132467312533" width="7.367622148760761" height="10.474264934625065" style="transform:scale(1.8559359695791229)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(178.91630516265215 0)">
+            <g class="ld ld-fall2" style="animation-delay:-3.308603408335043s;animation-duration:4s">
+            <rect x="-4.5638458770254005" y="-3.4465711753784047" width="9.127691754050801" height="6.8931423507568095" style="transform:scale(1.6438481071966158)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(1024.299218349891 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.6338362811492368s;animation-duration:2s">
+            <rect x="-3.5972825719356036" y="-5.5411456830582155" width="7.194565143871207" height="11.082291366116431" style="transform:scale(3.079338103563031)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(174.36201633691599 0)">
+            <g class="ld ld-fall2" style="animation-delay:-3.07209339561864s;animation-duration:4s">
+            <rect x="-5.3283217357620085" y="-5.706474067090889" width="10.656643471524017" height="11.412948134181779" style="transform:scale(2.784662608242371)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(753.1351215347145 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.9141766179108926s;animation-duration:2s">
+            <rect x="-3.970012826957891" y="-3.8791943484358997" width="7.940025653915782" height="7.758388696871799" style="transform:scale(2.380031207011994)" fill="#4355db"></rect>
+            </g></g><g transform="translate(769.0390365170466 0)">
+            <g class="ld ld-fall2" style="animation-delay:-0.7247468733755502s;animation-duration:2s">
+            <rect x="-3.5384552501029014" y="-5.222960114983649" width="7.076910500205803" height="10.445920229967298" style="transform:scale(3.1103096887131114)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(461.04617222897923 0)">
+            <g class="ld ld-fall2" style="animation-delay:-3.2473575237347143s;animation-duration:4s">
+            <rect x="-5.651947809551483" y="-4.47147945929146" width="11.303895619102965" height="8.94295891858292" style="transform:scale(1.9837595543058368)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(169.2405826759352 0)">
+            <g class="ld ld-fall2" style="animation-delay:-2.1051307160346946s;animation-duration:4s">
+            <rect x="-4.720596301564177" y="-3.937733840256717" width="9.441192603128354" height="7.875467680513434" style="transform:scale(2.4482673962751043)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(1240.0896087281844 0)">
+            <g class="ld ld-fall2" style="animation-delay:-0.7609934792940498s;animation-duration:4s">
+            <rect x="-5.699244789872638" y="-4.449623629689833" width="11.398489579745275" height="8.899247259379665" style="transform:scale(2.2729892722250757)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(720.0088932932224 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.2871390354614527s;animation-duration:2s">
+            <rect x="-4.6319854497658515" y="-4.673814122764039" width="9.263970899531703" height="9.347628245528078" style="transform:scale(3.3066081727472185)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(167.80999072597214 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.5605529444414397s;animation-duration:2s">
+            <rect x="-3.779641092277531" y="-4.100509643709382" width="7.559282184555062" height="8.201019287418765" style="transform:scale(3.046178306015024)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(974.2551971188614 0)">
+            <g class="ld ld-fall2" style="animation-delay:-0.04182137242252715s;animation-duration:2s">
+            <rect x="-3.0635706183667493" y="-4.15756838942789" width="6.1271412367334985" height="8.31513677885578" style="transform:scale(2.8536197644737813)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(738.957443262217 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.8894979167804418s;animation-duration:2s">
+            <rect x="-5.4873169986397095" y="-3.771732374884181" width="10.974633997279419" height="7.543464749768362" style="transform:scale(2.0661434809942065)" fill="#f7d038"></rect>
+            </g></g><g transform="translate(1112.7738111348294 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.4383488050969477s;animation-duration:4s">
+            <rect x="-5.260944222364215" y="-3.6252387090272284" width="10.52188844472843" height="7.250477418054457" style="transform:scale(3.069604215551072)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(994.9345918731212 0)">
+            <g class="ld ld-fall2" style="animation-delay:-0.21788145133629078s;animation-duration:2s">
+            <rect x="-5.494315716115402" y="-4.061798645487885" width="10.988631432230804" height="8.12359729097577" style="transform:scale(2.1051182180770573)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(604.5053039033761 0)">
+            <g class="ld ld-fall2" style="animation-delay:-2.935760664006506s;animation-duration:4s">
+            <rect x="-4.53912642841167" y="-4.451534463683395" width="9.07825285682334" height="8.90306892736679" style="transform:scale(1.8405420362156262)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(927.1695121119216 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.4176690952356426s;animation-duration:2s">
+            <rect x="-5.98915281166677" y="-3.2235314572590568" width="11.97830562333354" height="6.4470629145181135" style="transform:scale(2.8979953219600265)" fill="#f7d038"></rect>
+            </g></g><g transform="translate(1033.842314818225 0)">
+            <g class="ld ld-fall2" style="animation-delay:-3.295231348437145s;animation-duration:4s">
+            <rect x="-5.9447834717454" y="-3.3454052767806033" width="11.8895669434908" height="6.690810553561207" style="transform:scale(2.007929719239155)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(616.0071933029724 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.5646475151085122s;animation-duration:4s">
+            <rect x="-5.024794731341809" y="-3.6157178588219985" width="10.049589462683619" height="7.231435717643997" style="transform:scale(2.318509564292878)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(769.7351975510269 0)">
+            <g class="ld ld-fall2" style="animation-delay:-2.535209224450181s;animation-duration:4s">
+            <rect x="-3.448112273228147" y="-4.775300191261762" width="6.896224546456294" height="9.550600382523523" style="transform:scale(1.8204201685764545)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(96.82920654316904 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.1088943698608351s;animation-duration:2s">
+            <rect x="-3.807841896396991" y="-4.949076511795482" width="7.615683792793982" height="9.898153023590964" style="transform:scale(3.329743631681848)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(1047.1913022018016 0)">
+            <g class="ld ld-fall2" style="animation-delay:-2.0279599460912605s;animation-duration:4s">
+            <rect x="-4.959780507440917" y="-3.629311086808814" width="9.919561014881834" height="7.258622173617628" style="transform:scale(2.4787649957286075)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(1310.3087053596275 0)">
+            <g class="ld ld-fall2" style="animation-delay:-1.9806802838805737s;animation-duration:4s">
+            <rect x="-4.528994752296262" y="-3.8152700175593246" width="9.057989504592523" height="7.630540035118649" style="transform:scale(1.5681170963828552)" fill="#eb7532"></rect>
+            </g></g></g>
+              <g transform="translate(0 -351.6440465098235)"><g transform="translate(1356.8535764012888 0)">
+            <g class="ld ld-fall" style="animation-delay:-0.8836137812908218s;animation-duration:4s">
+            <rect x="-4.865413099521408" y="-3.1203390664486634" width="9.730826199042816" height="6.240678132897327" style="transform:scale(2.8862879612566132)" fill="#4355db"></rect>
+            </g></g><g transform="translate(765.2278555660156 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.4273347398747749s;animation-duration:2s">
+            <rect x="-5.428187222378368" y="-3.118112429446769" width="10.856374444756735" height="6.236224858893538" style="transform:scale(2.0134669585152114)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(351.8168569571826 0)">
+            <g class="ld ld-fall" style="animation-delay:-3.2066013545150938s;animation-duration:4s">
+            <rect x="-3.6838110743803805" y="-5.237132467312533" width="7.367622148760761" height="10.474264934625065" style="transform:scale(1.8559359695791229)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(178.91630516265215 0)">
+            <g class="ld ld-fall" style="animation-delay:-3.308603408335043s;animation-duration:4s">
+            <rect x="-4.5638458770254005" y="-3.4465711753784047" width="9.127691754050801" height="6.8931423507568095" style="transform:scale(1.6438481071966158)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(1024.299218349891 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.6338362811492368s;animation-duration:2s">
+            <rect x="-3.5972825719356036" y="-5.5411456830582155" width="7.194565143871207" height="11.082291366116431" style="transform:scale(3.079338103563031)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(174.36201633691599 0)">
+            <g class="ld ld-fall" style="animation-delay:-3.07209339561864s;animation-duration:4s">
+            <rect x="-5.3283217357620085" y="-5.706474067090889" width="10.656643471524017" height="11.412948134181779" style="transform:scale(2.784662608242371)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(753.1351215347145 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.9141766179108926s;animation-duration:2s">
+            <rect x="-3.970012826957891" y="-3.8791943484358997" width="7.940025653915782" height="7.758388696871799" style="transform:scale(2.380031207011994)" fill="#4355db"></rect>
+            </g></g><g transform="translate(769.0390365170466 0)">
+            <g class="ld ld-fall" style="animation-delay:-0.7247468733755502s;animation-duration:2s">
+            <rect x="-3.5384552501029014" y="-5.222960114983649" width="7.076910500205803" height="10.445920229967298" style="transform:scale(3.1103096887131114)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(461.04617222897923 0)">
+            <g class="ld ld-fall" style="animation-delay:-3.2473575237347143s;animation-duration:4s">
+            <rect x="-5.651947809551483" y="-4.47147945929146" width="11.303895619102965" height="8.94295891858292" style="transform:scale(1.9837595543058368)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(169.2405826759352 0)">
+            <g class="ld ld-fall" style="animation-delay:-2.1051307160346946s;animation-duration:4s">
+            <rect x="-4.720596301564177" y="-3.937733840256717" width="9.441192603128354" height="7.875467680513434" style="transform:scale(2.4482673962751043)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(1240.0896087281844 0)">
+            <g class="ld ld-fall" style="animation-delay:-0.7609934792940498s;animation-duration:4s">
+            <rect x="-5.699244789872638" y="-4.449623629689833" width="11.398489579745275" height="8.899247259379665" style="transform:scale(2.2729892722250757)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(720.0088932932224 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.2871390354614527s;animation-duration:2s">
+            <rect x="-4.6319854497658515" y="-4.673814122764039" width="9.263970899531703" height="9.347628245528078" style="transform:scale(3.3066081727472185)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(167.80999072597214 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.5605529444414397s;animation-duration:2s">
+            <rect x="-3.779641092277531" y="-4.100509643709382" width="7.559282184555062" height="8.201019287418765" style="transform:scale(3.046178306015024)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(974.2551971188614 0)">
+            <g class="ld ld-fall" style="animation-delay:-0.04182137242252715s;animation-duration:2s">
+            <rect x="-3.0635706183667493" y="-4.15756838942789" width="6.1271412367334985" height="8.31513677885578" style="transform:scale(2.8536197644737813)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(738.957443262217 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.8894979167804418s;animation-duration:2s">
+            <rect x="-5.4873169986397095" y="-3.771732374884181" width="10.974633997279419" height="7.543464749768362" style="transform:scale(2.0661434809942065)" fill="#f7d038"></rect>
+            </g></g><g transform="translate(1112.7738111348294 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.4383488050969477s;animation-duration:4s">
+            <rect x="-5.260944222364215" y="-3.6252387090272284" width="10.52188844472843" height="7.250477418054457" style="transform:scale(3.069604215551072)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(994.9345918731212 0)">
+            <g class="ld ld-fall" style="animation-delay:-0.21788145133629078s;animation-duration:2s">
+            <rect x="-5.494315716115402" y="-4.061798645487885" width="10.988631432230804" height="8.12359729097577" style="transform:scale(2.1051182180770573)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(604.5053039033761 0)">
+            <g class="ld ld-fall" style="animation-delay:-2.935760664006506s;animation-duration:4s">
+            <rect x="-4.53912642841167" y="-4.451534463683395" width="9.07825285682334" height="8.90306892736679" style="transform:scale(1.8405420362156262)" fill="#eb7532"></rect>
+            </g></g><g transform="translate(927.1695121119216 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.4176690952356426s;animation-duration:2s">
+            <rect x="-5.98915281166677" y="-3.2235314572590568" width="11.97830562333354" height="6.4470629145181135" style="transform:scale(2.8979953219600265)" fill="#f7d038"></rect>
+            </g></g><g transform="translate(1033.842314818225 0)">
+            <g class="ld ld-fall" style="animation-delay:-3.295231348437145s;animation-duration:4s">
+            <rect x="-5.9447834717454" y="-3.3454052767806033" width="11.8895669434908" height="6.690810553561207" style="transform:scale(2.007929719239155)" fill="#34bbe6"></rect>
+            </g></g><g transform="translate(616.0071933029724 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.5646475151085122s;animation-duration:4s">
+            <rect x="-5.024794731341809" y="-3.6157178588219985" width="10.049589462683619" height="7.231435717643997" style="transform:scale(2.318509564292878)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(769.7351975510269 0)">
+            <g class="ld ld-fall" style="animation-delay:-2.535209224450181s;animation-duration:4s">
+            <rect x="-3.448112273228147" y="-4.775300191261762" width="6.896224546456294" height="9.550600382523523" style="transform:scale(1.8204201685764545)" fill="#d23be7"></rect>
+            </g></g><g transform="translate(96.82920654316904 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.1088943698608351s;animation-duration:2s">
+            <rect x="-3.807841896396991" y="-4.949076511795482" width="7.615683792793982" height="9.898153023590964" style="transform:scale(3.329743631681848)" fill="#e6261f"></rect>
+            </g></g><g transform="translate(1047.1913022018016 0)">
+            <g class="ld ld-fall" style="animation-delay:-2.0279599460912605s;animation-duration:4s">
+            <rect x="-4.959780507440917" y="-3.629311086808814" width="9.919561014881834" height="7.258622173617628" style="transform:scale(2.4787649957286075)" fill="#a3e048"></rect>
+            </g></g><g transform="translate(1310.3087053596275 0)">
+            <g class="ld ld-fall" style="animation-delay:-1.9806802838805737s;animation-duration:4s">
+            <rect x="-4.528994752296262" y="-3.8152700175593246" width="9.057989504592523" height="7.630540035118649" style="transform:scale(1.5681170963828552)" fill="#eb7532"></rect>
+            </g></g></g></g>
+          </svg> 
+          <div class="position-absolute top-bottom">
+            <h1 class="fw-bold f-size text-white">Join Now Our Website</h1>
+            <p class="text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, dolores. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, velit.</p>
+            <button class="px-4 py-2 text-white bg-primary rounded-2 border-0">Join Now</button>
+          </div>
+          <img class="w-25 position-absolute top-50 img-cake-left" src="./images/16714-birthday-cake-600x600-removebg-preview.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
