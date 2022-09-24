@@ -53,3 +53,21 @@
 .img-cake-left{
     left: 37%;
 }
+.card-width{
+    width: 24%;
+    box-shadow: 0 0 2px 2px rgb(210, 210, 210);
+    border-radius: 10px;
+}
+.fa-star{
+    margin-right: 8px;
+}
+.fa-star-half-stroke{
+    margin-right: 8px;
+}
+.line-through{
+    color: rgb(175, 175, 175);
+    text-decoration: line-through;
+}
+.img-width{
+    width: 17%;
+}
