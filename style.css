@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.click-hover:hover{
+
+.click-hover:hover {
     color: white;
 }
-.click-hover{
+
+.click-hover {
     position: relative;
 }
-.click-hover::before{
+
+.click-hover::before {
     content: '';
     position: absolute;
     left: 0;
@@ -18,62 +21,79 @@
     background: white;
     transition: 0.25s ease-out;
 }
-.click-hover:hover::before{
+
+.click-hover:hover::before {
     width: 100%;
 }
-.white-hover{
+
+.white-hover {
     color: rgb(165, 165, 165);
 }
-.white-hover:hover{
+
+.white-hover:hover {
     color: white;
 }
-.img-div-width{
+
+.img-div-width {
     width: 43%;
     margin-bottom: 20px;
     padding-left: 30px;
 }
-.width-aside{
+
+.width-aside {
     width: 14vw;
 }
-.overflow{
+
+.overflow {
     height: 90vh;
     overflow: scroll;
     overflow-x: hidden;
 }
-.text-ctr{
+
+.text-ctr {
     margin-left: 39%;
 }
-.top-bottom{
+
+.top-bottom {
     top: 15%;
     left: 30%;
 }
-.f-size{
+
+.f-size {
     font-size: 50px;
 }
-.img-cake-left{
+
+.img-cake-left {
     left: 37%;
 }
-.card-width{
+
+.card-width {
     width: 24%;
     box-shadow: 0 0 2px 2px rgb(210, 210, 210);
     border-radius: 10px;
 }
-.fa-star{
+
+.fa-star {
     margin-right: 8px;
 }
-.fa-star-half-stroke{
+
+.fa-star-half-stroke {
     margin-right: 8px;
 }
-.line-through{
+
+.line-through {
     color: rgb(175, 175, 175);
     text-decoration: line-through;
 }
-.img-width{
+
+.img-width {
     width: 17%;
 }
-.height{
+
+.height {
     padding: 10px;
 }
-.height1{
+
+.height1 {
     margin-top: 18px;
 }

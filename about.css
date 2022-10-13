@@ -1,7 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.bg-cream{
+
+.bg-cream {
     background-color: #FFFDD0;
+}
+.img-width{
+    width: 4%;
 }
