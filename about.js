@@ -13,5 +13,6 @@ document.getElementById('post-img').addEventListener('click', function(){
     const p = document.createElement('p');
     p.innerText = comment;
     commentContainer.appendChild(p);
+    
     commentBox.value = '';
 })

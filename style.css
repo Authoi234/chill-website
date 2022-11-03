@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+@keyframes multi-color {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: lime;
+    }
+
+    75% {
+        background-color: #ffCC00;
+    }
+
+    100% {
+        background-color: hotpink;
+    }
+}
+
+.animate-btn-multi-color {
+    animation: multi-color 2s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    position: relative;
+}
+
 .click-hover:hover {
     color: white;
 }
@@ -64,7 +92,7 @@
 }
 
 .img-cake-left {
-    left: 37%;
+    left: 39.5%;
 }
 
 .card-width {
